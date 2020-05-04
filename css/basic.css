@@ -14,6 +14,9 @@
   .narrow_nav{
     display : block !important;
   }
+  .contents{
+    display : block !important;
+  }
 }
 .top_title{
   display : flex;
