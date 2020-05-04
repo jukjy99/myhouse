@@ -1,0 +1,129 @@
+#main{
+  width:100%;
+}
+@media screen and (min-width:1400px){
+  #main{
+    width : 1400px;
+    margin : 0 auto; 
+  }
+}
+@media screen and (max-width:600px){
+  nav{
+    display : none;
+  }
+  .narrow_nav{
+    display : block !important;
+  }
+}
+.top_title{
+  display : flex;
+  width: 100%;
+  margin : 0 auto;
+  border-bottom : 1px solid rgb(230, 230, 230);
+}
+.title{
+  display : flex;
+  flex-grow : 9;
+
+}
+#since{
+  flex-grow : 1;
+  text-align: end;
+  padding-top : 40px;
+  padding-right: 20px;
+}
+.contents{
+  display: flex;
+  margin : 0 auto;
+}
+nav{
+  border-right: 1px solid rgb(230, 230, 230);
+  flex-grow : 2;
+}
+nav li{
+  padding : 10px;
+  text-align: center;
+}
+nav li:hover{
+  background-color: rgb(134, 165, 250);
+  color : white;
+}
+article{
+  flex-grow : 8;
+  margin-left: 20px;
+}
+.narrow_nav{
+  width : 100%;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  display : none;
+  height: 40px;
+}
+ul{
+  margin : 0;
+  padding-left : 0px;
+}
+.narrow_nav a{
+  float: left;
+}
+.narrow_nav li{
+  padding : 10px;
+  border-right: 1px solid rgb(230, 230, 230);
+}
+.narrow_nav li:hover{
+  background-color: rgb(134, 165, 250);
+  color : white;
+}
+.narrow_nav .contact_me{
+  justify-content: flex-end;
+  padding-top : 5px;
+  padding-right: 10px;
+}
+li{
+  list-style: none;
+  color : black;
+  
+}
+.my_info{
+  text-align: center;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+.myImg img{
+  width : 100px;
+  border-radius: 10px;
+  margin-top : 15px;
+}
+.contact_me{
+  display : flex;
+  justify-content: center;
+}
+.email_icon{
+  margin-left : 5px;
+  padding-bottom: 5px;
+  cursor : pointer;
+}
+.copybtn{
+  font-size: 6px;
+  padding : 0px;
+}
+.email{
+  display : none;
+}
+.email.on{
+  display : block;
+  margin-bottom: 10px;
+  font-size : 10px;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  color : black;
+}
+
+article span{
+  border-bottom: 1px solid rgb(230, 230, 230);
+  color : rgb(97, 93, 93);
+}
+.article_title{
+  text-align: right;
+  margin-right: 20px;
+}
